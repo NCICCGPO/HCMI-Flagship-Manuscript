@@ -1,3 +1,6 @@
 [submodule "Driver_Concordance"]
 	path = Driver_Concordance
 	url = https://github.com/shahcompbio/driver-concordance.git
+[submodule "hcmi-analysis-califano-lab"]
+	path = hcmi-analysis-califano-lab
+	url = https://github.com/califano-lab/hcmi-analysis-califano-lab.git
