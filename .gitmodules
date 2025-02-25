@@ -4,3 +4,6 @@
 [submodule "hcmi-analysis-califano-lab"]
 	path = hcmi-analysis-califano-lab
 	url = https://github.com/califano-lab/hcmi-analysis-califano-lab.git
+[submodule "HCMI-Explorer-Suite"]
+	path = HCMI-Explorer-Suite
+	url = https://github.com/human-cancer-model-initiative/HCMI-Explorer-Suite.git
