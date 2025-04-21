@@ -15,6 +15,10 @@ This repository currently includes the following components:
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.  
 - **Euclidean distance analysis**: Sample biological distance calculation and analysis. For details, see the Euclidean Distance [Setup Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance/blob/main/doc/requirements.md) and [Analysis Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance) to reproduce analysis.
 
+```bash
+bash scripts/analyses/run_pipeline_euc_dist.sh PAAD data/prep
+```
+
 ## Cloning This Repository  
 
 To properly check out this repository and ensure all submodules are included, use the following command:  
