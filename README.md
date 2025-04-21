@@ -13,8 +13,8 @@ This repository currently includes the following components:
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
 - **Single nuclei analysis**: Demo codes highlighting snRNA-seq data analysis in selected tumor-model pairs.
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.  
-- **Latent Transcription Factor distance analysis**: *Sample biological distance calculation based on transcription factors.*
-    1. [Setup Page](https://github.com/jordan2lee/latent-tf-tumor-growth-distances/blob/main/doc/requirements.md) - Detailed instructions on required set up.
+- **Latent Transcription Factor Distance Analysis**: *Sample biological distance calculation based on transcription factors.*
+    1. [Setup Page](https://github.com/jordan2lee/latent-tf-tumor-growth-distances/blob/main/doc/requirements.md) - *Detailed instructions on required set up.*
     2. Run Pipeline - *Runs all cancers for an inter-cohort analysis*
         ```bash
         bash scripts/analyses/run_pipeline_latenttf_dist.sh
