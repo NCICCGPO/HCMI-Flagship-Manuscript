@@ -7,3 +7,6 @@
 [submodule "HCMI-Explorer-Suite"]
 	path = HCMI-Explorer-Suite
 	url = https://github.com/human-cancer-model-initiative/HCMI-Explorer-Suite.git
+[submodule "pipelines/euclidean-tumor-growth-distance"]
+	path = pipelines/euclidean-tumor-growth-distance
+	url = https://github.com/jordan2lee/euclidean-tumor-growth-distance.git
