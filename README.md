@@ -13,11 +13,15 @@ This repository currently includes the following components:
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
 - **Single nuclei analysis**: Demo codes highlighting snRNA-seq data analysis in selected tumor-model pairs.
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.  
-- **Euclidean distance analysis**: Sample biological distance calculation and analysis. For details, see the Euclidean Distance [Setup Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance/blob/main/doc/requirements.md) and [Analysis Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance) to reproduce analysis.
+- **Euclidean distance analysis**: Sample biological distance calculation and analysis. 
+    1. [Setup Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance/blob/main/doc/requirements.md) - Detailed instructions on required set up.
+    2. Run Pipeline - 
 
-```bash
-bash scripts/analyses/run_pipeline_euc_dist.sh PAAD data/prep
-```
+        Specify a single cancer cohort or use `ALL` to run all cancer cohorts. Second specify name of folder to house intermediate files in pipeline submodule.
+        ```bash
+        bash scripts/analyses/run_pipeline_euc_dist.sh PAAD data/prep
+        ```
+        Additional information are on [Analysis Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance).
 
 ## Cloning This Repository  
 
