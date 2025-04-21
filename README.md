@@ -19,7 +19,7 @@ This repository currently includes the following components:
         ```bash
         bash scripts/analyses/run_pipeline_euc_dist.sh PAAD data/prep
         ```
-        Additional information are on [Analysis Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance).
+        Additional information on [Analysis Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance).
 
 ## Cloning This Repository  
 
