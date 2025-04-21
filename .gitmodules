@@ -7,3 +7,6 @@
 [submodule "HCMI-Explorer-Suite"]
 	path = HCMI-Explorer-Suite
 	url = https://github.com/human-cancer-model-initiative/HCMI-Explorer-Suite.git
+[submodule "pipelines/latent-tf-tumor-growth-distances"]
+	path = pipelines/latent-tf-tumor-growth-distances
+	url = https://github.com/jordan2lee/latent-tf-tumor-growth-distances.git
