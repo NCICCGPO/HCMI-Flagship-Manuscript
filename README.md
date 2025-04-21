@@ -15,9 +15,7 @@ This repository currently includes the following components:
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.  
 - **Euclidean distance analysis**: Sample biological distance calculation and analysis. 
     1. [Setup Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance/blob/main/doc/requirements.md) - Detailed instructions on required set up.
-    2. Run Pipeline - 
-
-        Specify a single cancer cohort or use `ALL` to run all cancer cohorts. Second specify name of folder to house intermediate files in pipeline submodule.
+    2. Run Pipeline - Specify a single cancer cohort or use `ALL` to run all cancer cohorts. Second specify name of folder to house intermediate files in pipeline submodule.
         ```bash
         bash scripts/analyses/run_pipeline_euc_dist.sh PAAD data/prep
         ```
