@@ -13,6 +13,15 @@ This repository currently includes the following components:
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
 - **Single nuclei analysis**: Demo codes highlighting snRNA-seq data analysis in selected tumor-model pairs.
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.  
+
+- **Euclidean distance analysis**: Sample biological distance calculation and analysis. 
+    1. [Setup Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance/blob/main/doc/requirements.md) - Detailed instructions on required set up.
+    2. Run Pipeline - Specify a single cancer cohort or use `ALL` to run all cancer cohorts (all options found [here](https://github.com/jordan2lee/euclidean-tumor-growth-distance/blob/main/doc/cohort_options.md)). Second specify name of folder to house intermediate files in pipeline submodule.
+        ```bash
+        bash scripts/analyses/run_pipeline_euc_dist.sh PAAD data/prep
+        ```
+        Additional information on [Analysis Page](https://github.com/jordan2lee/euclidean-tumor-growth-distance).
+
 - **TMP Toolkit Subtype Classification**: Labeling samples with TMP subtypes.
     + [Setup Page](https://github.com/jordan2lee/classify-lab-models-and-tumors/blob/main/doc/requirements.md) - *Detailed instructions on required set up.*
     + Run Pre-processing Pipeline - *Specify a single cancer cohort or use ALL to run all cancer cohorts (all options found [here](https://github.com/jordan2lee/classify-lab-models-and-tumors/blob/main/doc/cohort_options.md)). Second specify name of folder to house intermediate files in pipeline submodule.*
@@ -31,6 +40,7 @@ This repository currently includes the following components:
         # Run DNA Methylation based Classifier
         bash run_pipeline_get_tmp_subtype.sh PAAD data/prep METH
         ```
+
 
 ## Cloning This Repository  
 
