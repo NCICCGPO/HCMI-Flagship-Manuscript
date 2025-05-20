@@ -1,0 +1,196 @@
+# from Andrew Cherniack: https://docs.google.com/spreadsheets/d/1c6bSqAky9D2qvdSeDbHoS91HT-QX0mlXmzJvWWbNY60/edit?gid=0#gid=0
+COAD:
+    hlamp:
+        - MYC
+        - ERBB2
+        - IGF2
+        - FGFR1
+        - CDK8
+        - XPO1
+        - KRAS
+    homdel:
+        - ARID1A
+        - SMAD4
+        - SMAD3
+GBM:
+    hlamp:
+        - EGFR
+        - CDK4
+        - MDM4
+        - MDM2
+        - PDGFRA
+        - SOX2
+        - CCND2
+    homdel:
+        - CDKN2A
+        - PTEN
+        - RB1
+PAAD:
+    hlamp:
+        - GATA6
+        - MDM2
+        - KRAS
+        - ERBB2
+        - MYC
+    homdel:
+        - CDKN2A
+        - SMAD4
+        - MAP2K4
+        - PTEN
+ESCA:
+    hlamp:
+        - CCND1
+        - SOX2
+        - CDK6
+        - EGFR
+        - TERT
+        - MDM2
+        - FGF1
+        - KAT6A
+        - KRAS
+        - CD44
+        - CDK4
+    homdel:
+        - CDKN2A
+        - RB1
+SKCM:
+    hlamp:
+        - TERT
+        - BRAF
+        - NRAS
+        - CCND1
+        - MITF
+        - TERT
+        - CDK4
+        - MDM2
+        - CD274
+    homdel:
+        - CDKN2A
+        - PTEN
+        - PTPRD
+READ:
+    hlamp:
+        - MYC
+        - ERBB2
+        - IGF2
+        - FGFR1
+        - CDK8
+        - XPO1
+        - KRAS
+    homdel:
+        - ARID1A
+        - SMAD4
+        - SMAD3
+STAD:
+    hlamp:
+        - ERBB2
+        - CCNE1
+        - MYC
+        - KRAS
+        - GATA6
+        - CDK5
+        - GATA4
+        - CCND1
+        - EGFR
+        - FGFR2
+        - CD44
+        - CD274
+    homdel:
+        - PTPRD
+        - CDKN2A
+        - ARID1A
+        - SMAD4
+OV:
+    hlamp:
+        - MYC
+        - TERT
+        - CCNE1
+        - BRD4
+        - MCL1
+        - KRAS
+    homdel:
+        - RB1
+        - ARID1A
+        - MGA
+        - NF1
+        - PTEN
+        - CREBBP
+        - PPP2R2A
+BRCA:
+    hlamp:
+        - GATA3
+        - CCND1
+        - ERBB2
+        - ZNF703
+        - MYC
+        - ZNF217
+        - MCL1
+        - IGF1R
+        - CCNE1
+        - BRD4
+        - EGFR
+    homdel:
+        - RB1
+        - PTEN
+        - CDKN2A
+        - BRCA1
+        - PTPRD
+        - MAP2K4
+SARC:
+    hlamp:
+        - MDM2
+        - JUN
+        - VGLL3
+        - CCNE1
+        - YAP1
+        - TERT
+        - FGFR1
+        - KIT
+        - CCND2
+    homdel:
+        - CDKN2A
+        - ATRX
+        - NF1
+        - PTEN
+CHOL:
+    hlamp:
+        - IDH1
+        - BAP1
+        - CCND1
+        - CDK4
+        - MDM2
+    homdel:
+        - ARID1A
+        - CDKN2A
+        - QKI
+        - SAV1
+UCEC:
+    hlamp:
+        - CCNE1
+        - ERBB2
+        - MYC
+        - RIT1
+        - TERC
+        - KAT6A
+        - MCL1
+        - FGFR3
+        - KAT6B
+        - ESR1
+    homdel:
+        - CTNNB1
+        - PTEN
+        - ARID1A
+        - NF1
+        - RB1
+        - PTPRD
+LUAD:
+    hlamp:
+        - EGFR
+    homdel:
+        - CDKN2A
+BLCA:
+    hlamp:
+        - KDM6A
+    homdel:
+        - ARID1A
+        - RB1
