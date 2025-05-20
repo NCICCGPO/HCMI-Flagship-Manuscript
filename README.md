@@ -10,6 +10,12 @@ The repository is organized into multiple Git submodules, each pointing to indiv
 This repository currently includes the following components:  
 
 - **CNV Concordance Analysis**: Scripts and workflows for assessing copy number variation (CNV) concordance between models and their paired tumors.  
+    1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
+    2. Create Figures from Output Tables - *This can be done within the pipeline itself, or by running a downstream pipeline that generates figures from the intermediate outputs produced just prior to figure creation.*
+        ```bash
+        bash scripts/analyses/run_plotter_driver_concordance.sh
+        ```
+
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
 - **Single nuclei analysis**: Demo codes highlighting snRNA-seq data analysis in selected tumor-model pairs.
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.  
