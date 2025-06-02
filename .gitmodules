@@ -16,3 +16,7 @@
 [submodule "pipelines/driver-concordance"]
 	path = pipelines/driver-concordance
 	url = https://github.com/shahcompbio/driver-concordance.git
+[submodule "platforms/HCMI-Explorer-Suite"]
+	path = platforms/HCMI-Explorer-Suite
+	url = https://github.com/human-cancer-model-initiative/HCMI-Explorer-Suite.git
+	branch = main
