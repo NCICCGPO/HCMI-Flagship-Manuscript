@@ -20,3 +20,6 @@
 	path = platforms/HCMI-Explorer-Suite
 	url = https://github.com/human-cancer-model-initiative/HCMI-Explorer-Suite.git
 	branch = main
+[submodule "pipelines/HCMI_OncoMatch"]
+	path = pipelines/HCMI_OncoMatch
+	url = https://github.com/califano-lab/HCMI_OncoMatch.git
