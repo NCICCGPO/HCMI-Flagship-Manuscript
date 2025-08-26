@@ -23,3 +23,6 @@
 [submodule "pipelines/HCMI_OncoMatch"]
 	path = pipelines/HCMI_OncoMatch
 	url = https://github.com/califano-lab/HCMI_OncoMatch.git
+[submodule "scripts/analyses/HCMI-single-nuclei"]
+	path = scripts/analyses/HCMI-single-nuclei
+	url = https://github.com/califano-lab/HCMI-single-nuclei.git
