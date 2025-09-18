@@ -17,6 +17,7 @@ This repository currently includes the following components:
         ```
 
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
+- **Celligner analysis**: Pipeline to align HCMI RNA expression profiles with TCGA/TARGET and CCLE datasets using the Celligner framework as described in Warren et al., *Nature Communications* 2021 (https://doi.org/10.1038/s41467-020-20294-x) and https://github.com/broadinstitute/celligner.
 - **Single nuclei analysis**: Demo codes highlighting snRNA-seq data analysis in selected tumor-model pairs.
 - **HCMI Explorer Suite**: A shiny app to explore treatment timelines of the HCMI collection.
 - **MultiClass Pairs Based Distance Analysis**: *Tumor matched model distance calculation based on multiclass pair prediction scores*
