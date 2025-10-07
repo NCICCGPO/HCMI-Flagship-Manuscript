@@ -1,0 +1,27 @@
+PLINK v1.90b3.29 64-bit (24 Dec 2015)
+Options in effect:
+  --bfile .//tmp.wgs.chr.maf_cutoff
+  --extract .//wgs.chr.prune.in
+  --keep .//tmp.wgs.chr.ALL.wgs.chr.GRCh38.20170504_integrated.excl_ACB_ASW_MXL.fam
+  --make-bed
+  --out .//wgs.chr
+
+Hostname: pi3dc4-068.nygenome.org
+Working directory: /gpfs/commons/home/tchu/tools/ancestry-tools/resources
+Start time: Wed Oct 14 19:47:51 2020
+
+Random number seed: 1602719271
+257689 MB RAM detected; reserving 128844 MB for main workspace.
+12095020 variants loaded from .bim file.
+2504 people (1233 males, 1271 females) loaded from .fam.
+--extract: 121458 variants remaining.
+--keep: 2283 people remaining.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 2271 founders and 12 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.999964.
+121458 variants and 2283 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to .//wgs.chr.bed + .//wgs.chr.bim + .//wgs.chr.fam ... done.
+
+End time: Wed Oct 14 19:48:01 2020
