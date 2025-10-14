@@ -1,0 +1,69 @@
+{
+    "production" : true,
+    "external" : true,
+    "readLength" : 151,
+    "normalSampleInfos": [
+        {
+            "sampleAnalysisId": "NORMAL",
+            "expectedCoverage": 30,
+            "listOfFastqPairs": [
+                {
+                    "fastqR1": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L001_001.R1.fastq.gz",
+                    "fastqR2": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L001_001.R2.fastq.gz",
+                    "readGroupId": "NORMAL_AAGGTACA_HY7KNCCXX_L001",
+                    "clientSampleId": "NORMAL",
+                    "readGroupPlatformUnit": "HY7KNCCXX.1.AAGGTACA"
+                },
+                {
+                    "fastqR1": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L002_001.R1.fastq.gz",
+                    "fastqR2": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L002_001.R2.fastq.gz",
+                    "readGroupId": "NORMAL_AAGGTACA_HY7KNCCXX_L001",
+                    "clientSampleId": "NORMAL",
+                    "readGroupPlatformUnit": "HY7KNCCXX.2.AAGGTACA"
+                }
+            ]
+        }
+    ],
+    "sampleInfos": [
+        {
+            "sampleAnalysisId": "NORMAL",
+            "expectedCoverage": 30,
+            "listOfFastqPairs": [
+                {
+                    "fastqR1": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L001_001.R1.fastq.gz",
+                    "fastqR2": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L001_001.R2.fastq.gz",
+                    "readGroupId": "NORMAL_AAGGTACA_HY7KNCCXX_L001",
+                    "clientSampleId": "NORMAL",
+                    "readGroupPlatformUnit": "HY7KNCCXX.1.AAGGTACA"
+                },
+                {
+                    "fastqR1": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L002_001.R1.fastq.gz",
+                    "fastqR2": " gs://YOUR_BUCKET/fastq/NORMAL_CCGAAGTA_HYVLCCCXX_L002_001.R2.fastq.gz",
+                    "readGroupId": "NORMAL_AAGGTACA_HY7KNCCXX_L001",
+                    "clientSampleId": "NORMAL",
+                    "readGroupPlatformUnit": "HY7KNCCXX.2.AAGGTACA"
+                }
+            ]
+        },
+        {
+            "sampleAnalysisId": "TUMOR",
+            "expectedCoverage": 80,
+            "listOfFastqPairs": [
+                {
+                    "fastqR1": " gs://YOUR_BUCKET/fastq/TUMOR_AGATCGCA_HYVLCCCXX_L005_001.R1.fastq.gz",
+                    "fastqR2": " gs://YOUR_BUCKET/fastq/TUMOR_AGATCGCA_HYVLCCCXX_L005_001.R2.fastq.gz",
+                    "readGroupId": "TUMOR_AGATCGCA_HY7KNCCXX_L005",
+                    "clientSampleId": "TUMOR",
+                    "readGroupPlatformUnit": "HYVLCCCXX.L005.AGATCGCA"
+                },
+                {
+                    "fastqR1": " gs://YOUR_BUCKET/fastq/TUMOR_AGATCGCA_HYVLCCCXX_L006_001.R1.fastq.gz",
+                    "fastqR2": " gs://YOUR_BUCKET/fastq/TUMOR_AGATCGCA_HYVLCCCXX_L006_001.R2.fastq.gz",
+                    "readGroupId": "TUMOR_AGATCGCA_HY7KNCCXX_L006",
+                    "clientSampleId": "TUMOR",
+                    "readGroupPlatformUnit": "HYVLCCCXX.L006.AGATCGCA"
+                }
+            ]
+        }
+    ]
+}

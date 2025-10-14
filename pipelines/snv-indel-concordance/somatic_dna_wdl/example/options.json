@@ -1,0 +1,15 @@
+{
+    "read_from_cache": true,
+    "write_to_cache": true,
+    "final_workflow_outputs_dir": "gs://MY_BUCKET-output",
+    "use_relative_output_paths": true,
+    "final_call_logs_dir": "gs://MY_BUCKET-workspace",
+    "final_workflow_log_dir": "gs://MY_BUCKET-cromwell-logs",
+    "monitoring_image": "us.gcr.io/MY-PROJECT/cromwell-task-monitor-bq",
+    "google_compute_service_account": "cromwell@MY-PROJECT.iam.gserviceaccount.com",
+    "default_runtime_attributes": {
+        "maxRetries": 1,
+        "noAddress": true,
+        "preemptible": 6
+    }
+}

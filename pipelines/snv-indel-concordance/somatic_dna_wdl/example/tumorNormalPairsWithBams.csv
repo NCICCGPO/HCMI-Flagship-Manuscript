@@ -1,0 +1,2 @@
+tumor,normal,pairId,tumorBam,normalBam
+TUMOR,NORMAL,TUMOR--NORMAL,gs://YOUR_BUCKET/TUMOR.bam,gs://YOUR_BUCKET/NORMAL.bam
