@@ -1,10 +1,10 @@
-# HCMI Pipelines Index
+## HCMI Pipelines Index
 
 This page lists the pipelines, tools, and commands used in the HCMI flagship analysis, organized by data modality.
 
 ---
 
-## DNA Workflows (WGS/WES)
+### DNA Workflows (WGS/WES)
 
 - **CNV Concordance Analysis**: Scripts and workflows for assessing copy number variation (CNV) concordance between models and their paired tumors.  
     1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
@@ -37,7 +37,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 
 ---
 
-## RNA / Transcriptome Workflows
+### RNA / Transcriptome Workflows
 
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
 
@@ -63,7 +63,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 
 ---
 
-## Epigenetics / DNA Methylation Workflows
+### Epigenetics / DNA Methylation Workflows
 
 - **TMP Toolkit Subtype Classification**: Labeling samples with TMP subtypes.
     + [Setup Page](https://github.com/jordan2lee/classify-lab-models-and-tumors/blob/main/doc/requirements.md) - *Detailed instructions on required set up.*
