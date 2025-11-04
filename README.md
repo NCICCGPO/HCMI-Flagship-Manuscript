@@ -1,7 +1,7 @@
 # HCMI-Flagship-Manuscript  
 
 This repository contains software and analysis code used for the publication:  
-**A Compendium of Cancer Organoid Models for Diverse Cancer Types**  
+**A Compendium of Next-Generation Patient-Derived Models for Diverse Cancer Types**  
 
 The repository is organized into multiple Git submodules, each pointing to individual repositories and the version of the code used for the analysis.  
 
