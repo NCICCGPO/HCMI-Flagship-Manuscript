@@ -21,15 +21,29 @@ Public and controlled-access data, including WGS/WES, RNA-seq, DNA methylation, 
 
 This repository includes analysis scripts and pipeline references used to generate the results presented in the HCMI flagship manuscript.
 
-- **Analysis Pipelines**:
+- **Analysis Pipelines** — 
 Computational workflows for tumor–model concordance and biological distance metrics.  
 Pipelines are included as submodules and documented at: `pipelines/`
 
-- **Pre-processing & Utility Scripts**:
+- **Pre-processing & Utility Scripts** — 
 Support scripts used for data preparation and intermediate analysis steps: `scripts/analyses/`
 
-- **Visualization & Manuscript Figure Scripts**:
+- **Visualization & Manuscript Figure Scripts** — 
 Scripts used to generate figures included in the manuscript: `scripts/figures`
+
+---
+
+### HCMI Platforms & Interactive Tools
+
+The HCMI ecosystem includes multiple platforms for exploring, accessing, and requesting patient-derived models:
+
+- **[HCMI Searchable Catalogue](https://hcmi-searchable-catalog.nci.nih.gov/)** — primary portal to browse available HCMI models and associated metadata  
+
+- **HCMI Explorer Suite** — interactive viewer for clinical timelines, and genomic annotations. Platform repository submoduled uner: `platforms`
+
+- **[cBioPortal (HCMI Collection)](https://www.cbioportal.org/)** — integrated genomic visualization for HCMI models  
+
+- **[HCMI page @ ATCC](https://www.atcc.org/hcmi)** — models, culturing protocols, and ordering information available through ATCC  
 
 ---
 
@@ -42,3 +56,7 @@ git clone --recurse-submodules https://github.com/NCICCGPO/HCMI-Flagship-Manuscr
 ```  
 
 This will automatically retrieve all submodules required for the analysis.  
+
+---
+
+
