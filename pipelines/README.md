@@ -13,7 +13,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
         bash scripts/analyses/run_plotter_driver_concordance.sh
         ```
 
-- **ReMixT CNV + SV Analysis**: CNV + structural variant inference  
+- **Allele-Specific CNV + SV Inference (ReMixT)**: Inference of allele-specific CNVs and structural variants.
   https://github.com/amcpherson/remixt
 
 - **ASCAT Segmentation**: Tumor–model CNV segmentation  
@@ -26,7 +26,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   NYGC / Broad / WashU / MSK / EMBL SV workflows  
   *Details in Methods*
 
-- **AmpliconSuite ecDNA Detection**  
+- **ecDNA Detection (AmpliconSuite)**: Inference of extrachromosomal DNA amplifications.  
   https://github.com/AmpliconSuite/AmpliconSuite-pipeline
 
 - **Mutational Signature Analysis**  
