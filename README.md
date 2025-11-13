@@ -39,7 +39,7 @@ The HCMI ecosystem includes multiple platforms for exploring, accessing, and req
 
 - **[HCMI Searchable Catalogue](https://hcmi-searchable-catalog.nci.nih.gov/)** — primary portal to browse available HCMI models and associated metadata  
 
-- **HCMI Explorer Suite** — interactive viewer for clinical timelines, and genomic annotations. Platform repository submoduled uner: `platforms/`
+- **HCMI Explorer Suite** — interactive viewer for clinical timelines, and genomic annotations. Platform repository submoduled under: `platforms/`
 
 - **[cBioPortal (HCMI Collection)](https://www.cbioportal.org/)** — integrated genomic visualization for HCMI models  
 
