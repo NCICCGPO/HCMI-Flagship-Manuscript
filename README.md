@@ -26,7 +26,7 @@ Computational workflows for tumor–model concordance and biological distance me
 Pipelines are included as submodules and documented at: `pipelines/`
 
 - **Pre-processing & Utility Scripts** — 
-Support scripts used for data preparation and intermediate analysis steps: `scripts/analyses/`
+Support scripts used for data preparation and intermediate analysis steps: `scripts/analyses/`. This directory includes the `HCMI-single-nuclei` submodule containing all snRNA-seq analyses Jupyter notebooks.
 
 - **Visualization & Manuscript Figure Scripts** — 
 Scripts used to generate figures included in the manuscript: `scripts/figures/`
