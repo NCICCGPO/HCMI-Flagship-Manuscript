@@ -6,12 +6,8 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 
 ### DNA Workflows (WGS/WES)
 
-- **CNV Concordance Analysis**: Scripts and workflows for assessing copy number variation (CNV) concordance between models and their paired tumors.  
-    1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
-    2. Create Figures from Output Tables - *This can be done within the pipeline itself, or by running a downstream pipeline that generates figures from the intermediate outputs produced just prior to figure creation.*
-        ```bash
-        bash scripts/analyses/run_plotter_driver_concordance.sh
-        ```
+- **CN Concordance**: Scripts and workflows for assessing copy number (CN) concordance between models and their paired tumors.  
+  Copy number concordance analysis *(Methods)*
 
 - **Allele-Specific CNV + SV Inference (ReMixT)**: Inference of allele-specific CNVs and structural variants.
   https://github.com/amcpherson/remixt
@@ -33,7 +29,11 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   COSMIC signature framework *(Methods)*
 
 - **Driver Gene Annotation**  
-  SNV + CNV driver integration *(Methods)*
+    1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
+    2. Create Figures from Output Tables - *This can be done within the pipeline itself, or by running a downstream pipeline that generates figures from the intermediate outputs produced just prior to figure creation.*
+        ```bash
+        bash scripts/analyses/run_plotter_driver_concordance.sh
+        ```
 
 ---
 
