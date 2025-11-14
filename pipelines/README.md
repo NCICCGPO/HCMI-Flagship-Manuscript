@@ -28,7 +28,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 - **Mutational Signature Analysis**  
   COSMIC signature framework *(Methods)*
 
-- **Driver Gene Annotation**  
+- **Driver Concordance Analysis**  
     1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
     2. Create Figures from Output Tables - *This can be done within the pipeline itself, or by running a downstream pipeline that generates figures from the intermediate outputs produced just prior to figure creation.*
         ```bash
