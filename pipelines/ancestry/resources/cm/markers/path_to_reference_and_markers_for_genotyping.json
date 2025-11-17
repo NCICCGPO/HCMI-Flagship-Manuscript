@@ -1,0 +1,11 @@
+{
+  "b38" : {
+    "reference" : "PLEASE DOWNLOAD REFERENCE AT gs://nygc-resources-public/GRCh38_full_analysis_set_plus_decoy_hla/internal/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+    "remove_chr_prefix" : "yes",
+    "dbSNP" : "PLEASE DOWNLOAD REFERENCE AT gs://nygc-resources-public/dbSNP/b147_b38/00-All.vcf.gz",
+    "wgs" : {
+      "markerFilePrefix" : "MODIFY TO POINT TO LOCATION OF /resources/b38/wgs.chr"
+    }
+  }
+}
+

@@ -1,0 +1,1 @@
+chr	pos	rsID	alleleA	alleleB

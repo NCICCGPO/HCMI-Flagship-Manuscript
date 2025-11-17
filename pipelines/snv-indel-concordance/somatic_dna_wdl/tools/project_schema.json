@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft/2019-09/schema#",
+    
+    "type": "object",
+    
+    "definitions": {
+        "Fastqs": {
+            "type": "object",
+            "properties": {
+                "fastqR1": { "type": "string" },
+                "md5sumR1": { "type": "string" },
+                "fastqR2": { "type": "string" },
+                "md5sumR2": { "type": "string" },
+                "readGroupId": { "type": "string" },
+                "clientSampleId": { "type": "string" },
+                "limsLibraryName": { "type": "string" },
+                "readGroupPlatformUnit": { "type": "string" }
+            },
+            "required": ["fastqR1", "fastqR2", "readGroupId",
+                "clientSampleId",
+                "readGroupPlatformUnit"]
+        },
+        "Bam" : {
+            "type": "object",
+            "properties": {
+                "bam": { "type": "string" },
+                "bamIndex": { "type": "string" }
+            },
+            "required": ["bam"]
+        },
+        "SampleInfo": {
+            "type": "object",
+            "properties": {
+                "sampleAnalysisId" : { "type": "string" },
+                "expectedCoverage": { "type": "number" },
+                "listOfFastqPairs" : { "type": "array",
+                    "items": { "$ref": "#/definitions/Fastqs" }
+                },
+                "skipCoverageCheck": { "type": "boolean" }
+            },
+            "required": ["sampleAnalysisId", "expectedCoverage", "listOfFastqPairs" ]
+        },
+        "PairInfo": {
+            "type": "object",
+            "properties": {
+                "pairId": {"type" : "string" },
+                "tumorFinalBam": {"$ref": "#/definitions/Bam"},
+                "normalFinalBam": {"$ref": "#/definitions/Bam"},
+                "tumorId": {"type" : "string" },
+                "normalId": {"type" : "string" }
+            },
+            "required": ["pairId", "tumorId", "normalId", "tumorFinalBam", "normalFinalBam"]
+        }
+    },
+    
+    "properties": {
+        "pairIds" : {"type": "array",
+            "items": {"type": "string"}},
+        "sampleIds" : {"type": "array",
+            "items": {"type": "string"}},
+        "normalIds" : {"type": "array",
+            "items": {"type": "string"}},
+        "tumorIds" : {"type": "array",
+            "items": {"type": "string"}},
+        "commit": { "type": "string"},
+        "tag": { "type": "string"},
+        "uniq_tag": { "type": "string"},
+        "branch": { "type": "string"},
+        "project": { "type": "string"},
+        "pairInfos": { "type": "array",
+            "items": { "$ref": "#/definitions/PairInfo" }
+            
+        },
+        "sampleInfos": { "type": "array",
+            "items": { "$ref": "#/definitions/SampleInfo" }
+            
+        },
+        "normalSampleInfos": { "type": "array",
+            "items": { "$ref": "#/definitions/SampleInfo" }
+            
+        },
+        "library": { "type": "string",
+            "enum": ["WGS", "Exome"]
+        },
+        "genome": { "type": "string",
+            "enum": ["Human_GRCh38_full_analysis_set_plus_decoy_hla",
+                "Human_GRCh38_tcga"]
+        },
+        "intervalList": { "type": "string"}
+    },
+    
+    "required": []
+}

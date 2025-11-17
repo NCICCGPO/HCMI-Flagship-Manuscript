@@ -1,0 +1,62 @@
+{
+    "docLink": {
+        "type": "String",
+        "description": "v7 report current Documentation",
+        "object" : "https://bitbucket.nygenome.org/projects/COMPBIO/repos/wdl_port/browse/archive/README_pipeline.7.3.2.md"
+    },
+    "navTemplate": {
+        "type": "File",
+        "description": "v7 report template",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/nav_wgs_v7"
+    },
+    "pandocTemplate": {
+        "type": "File",
+        "description": "v7 report template",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/pandoc.tar.gz"
+    },
+    "lancetJsonLog" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/lancet_1.0.7_LancetWGSRegional.json"
+    },
+    "mantaJsonLog" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/manta_1.4.0_MantaWgs.json"
+    },
+    "strelkaJsonLog" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/strelka_v2.9.3_Strelka2.json"
+    },
+    "mutectJsonLog" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/gatk_4.0.5.1_Mutect2Wgs.json"
+    },
+    "mutectJsonLogFilter" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/gatk_4.0.5.1_Mutect2Wgs_Mutect2Filter.json"
+    },
+    "svabaJsonLog" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/svaba_1.1.3-c4d7b571_SvabaWgs.json"
+    },
+    "configureStrelkaSomaticWorkflow" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/configureStrelkaSomaticWorkflow.py.ini"
+    },
+    "adaptersFa" : {
+        "type" : "File",
+        "description" : "caller command",
+        "object" : "/gpfs/commons/groups/nygcfaculty/kancero/data/v7/SomaticWorkflowMisc/adapters.fa"
+    },
+    "novosortLicense" : {
+        "type" : "File",
+        "description" : "Internal license to let novosort run multithreaded",
+        "object" : "/gpfs/commons/resources/novosort/novosort.lic"
+    }
+}

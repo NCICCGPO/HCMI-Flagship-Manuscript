@@ -1,0 +1,29 @@
+{
+    "production" : true,
+    "external" : true,
+    "readLength" : 151,
+    "pairInfos": [
+        {
+            "tumor": "TUMOR",
+            "normal": "NORMAL",
+            "normalFinalBam": {
+                "bam": " gs://YOUR_BUCKET/NORMAL.bam",
+                "bamIndex": " gs://YOUR_BUCKET/NORMAL.bai"
+            },
+            "tumorFinalBam": {
+                "bam": " gs://YOUR_BUCKET/TUMOR.bam",
+                "bamIndex": " gs://YOUR_BUCKET/TUMOR.bai"
+            },
+            "pairId": "TUMOR--NORMAL"
+        }
+	],
+    "normalSampleBamInfos": [
+        {
+            "sampleId": "NORMAL",
+            "finalBam": {
+                "bam": " gs://YOUR_BUCKET/NORMAL.bam",
+                "bamIndex": " gs://YOUR_BUCKET/NORMAL.bai"
+            }
+        }
+    ]
+}
