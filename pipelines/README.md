@@ -36,7 +36,9 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
         ```
 - **Compute purity/ploidy consensus**
   ```bash
-  python scripts/compute_pp_consensus.py --input data/consensus_pp_for_github.txt --output_path '/path/for/output/' 
+  python scripts/compute_pp_consensus.py --input data/consensus_pp_for_github.txt --output_path '/path/for/output/'
+
+- **SV consensus**: Computing consensus SV set using SV calls from individual centers. Modofied from PCAWG method. https://github.com/beroukhim-lab/hcmi_sv_consensus_public/tree/main
 ---
 
 ### RNA / Transcriptome Workflows
