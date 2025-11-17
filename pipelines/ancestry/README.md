@@ -10,6 +10,7 @@ Please download the following resources and modify the json config file before r
 ```
 GRCh38_full_analysis_set_plus_decoy_hla.fa: gs://nygc-resources-public/GRCh38_full_analysis_set_plus_decoy_hla/internal/GRCh38_full_analysis_set_plus_decoy_hla.fa
 dbSNP b147_b38 00-All.vcf.gz: gs://nygc-resources-public/dbSNP/b147_b38/00-All.vcf.gz 
+wgs.chr.bed: gs://nygc-resources-public/ancestry/b38/wgs.chr.bed
 ```
 ````
 resources/cm/markers/path_to_reference_and_markers_for_genotyping.json
