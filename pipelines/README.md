@@ -37,9 +37,6 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 - **Compute purity/ploidy consensus**
   ```bash
   python scripts/compute_pp_consensus.py --input data/consensus_pp_for_github.txt --output_path '/path/for/output/' 
-
-
-
 ---
 
 ### RNA / Transcriptome Workflows
