@@ -20,6 +20,13 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 
 - **Structural Variant Calls**  
   NYGC:
+  Broad: 
+  WashU:
+  MSKCC:
+  EMBL:
+
+- **Copy Number Calls**  
+  NYGC:
   Broad: https://github.com/getzlab/ABSOLUTE  
   WashU:
   MSKCC:
