@@ -19,8 +19,11 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   *Used per Methods section*
 
 - **Structural Variant Calls**  
-  NYGC / Broad / WashU / MSK / EMBL SV workflows  
-  *Details in Methods*
+  NYGC:
+  Broad: https://github.com/getzlab/ABSOLUTE  
+  WashU:
+  MSKCC:
+  EMBL:
 
 - **ecDNA Detection (AmpliconSuite)**: Inference of extrachromosomal DNA amplifications.  
   https://github.com/AmpliconSuite/AmpliconSuite-pipeline
