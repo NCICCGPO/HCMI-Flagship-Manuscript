@@ -26,7 +26,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   https://github.com/AmpliconSuite/AmpliconSuite-pipeline
 
 - **Mutational Signature Analysis**  
-  COSMIC signature framework *(Methods)*
+  An implementation of the COSMIC signature framework: https://github.com/getzlab/SignatureAnalyzer
 
 - **Driver Concordance Analysis**  
     1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
