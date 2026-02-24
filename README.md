@@ -25,8 +25,8 @@ This repository includes analysis scripts and pipeline references used to genera
 Computational workflows for tumor–model concordance and biological distance metrics.  
 Pipelines are included as submodules and documented at: `pipelines/`
 
-- **Pre-processing & Utility Scripts** — 
-Support scripts used for data preparation and intermediate analysis steps: `scripts/analyses/`. This directory contains the `HCMI-single-nuclei` submodule, which includes all Jupyter notebooks for snRNA-seq analyses.
+- **Analysis Scripts** — 
+Data preprocessing, analytical workflows, and supporting scripts used for data processing and figure generation: `scripts/analyses/`. This directory also contains the `HCMI-single-nuclei` submodule, which includes all Jupyter notebooks for snRNA-seq analyses.
 
 - **Visualization & Manuscript Figure Scripts** — 
 Scripts used to generate figures included in the manuscript: `scripts/figures/`
