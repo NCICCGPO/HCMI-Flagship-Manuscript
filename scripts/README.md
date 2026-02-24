@@ -13,6 +13,8 @@ This page provides an overview of the analysis scripts, notebooks, figure-genera
 
 - **plot_fig<_num>**: script to generate the associate figure
 
+---
+
 ### figures
 This directory contains notebooks used for figure visualization and rendering.
 
