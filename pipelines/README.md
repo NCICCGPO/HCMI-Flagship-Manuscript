@@ -23,7 +23,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   
   Broad:
   
-  WashU:
+  WashU: https://github.com/ding-lab/SomaticSV
   
   MSKCC: https://github.com/amcpherson/remixt
   
@@ -32,7 +32,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
 - **Copy Number Calls**  
   Broad: https://github.com/getzlab/ABSOLUTE
   
-  WashU:
+  WashU: https://github.com/mwyczalkowski/BICSEQ2.CWL
   
   MSKCC: https://github.com/amcpherson/remixt
   
