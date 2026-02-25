@@ -19,16 +19,23 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   https://github.com/hartwigmedical/hmftools
 
 - **Structural Variant Calls**  
-  NYGC:
-  Broad: 
+  NYGC: https://github.com/nygenome/kancero
+  
+  Broad:
+  
   WashU:
-  MSKCC:
+  
+  MSKCC: https://github.com/amcpherson/remixt
+  
   EMBL: https://github.com/hartwigmedical/hmftools
 
 - **Copy Number Calls**  
-  Broad: https://github.com/getzlab/ABSOLUTE  
+  Broad: https://github.com/getzlab/ABSOLUTE
+  
   WashU:
+  
   MSKCC: https://github.com/amcpherson/remixt
+  
   EMBL: https://github.com/hartwigmedical/hmftools
 
 - **ecDNA Detection (AmpliconSuite)**: Inference of extrachromosomal DNA amplifications.  
