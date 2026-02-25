@@ -13,7 +13,7 @@ This page lists the pipelines, tools, and commands used in the HCMI flagship ana
   https://github.com/amcpherson/remixt
 
 - **ASCAT Segmentation**: Tumor–model CNV segmentation  
-  *Standard ASCAT workflow (see Methods)*
+  The GDC pipeline for running ASCAT is described here: https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/DNA_Seq_WGS/
 
 - **PURPLE Purity/Ploidy Calling**: Hartwig PURPLE pipeline  
   https://github.com/hartwigmedical/hmftools
