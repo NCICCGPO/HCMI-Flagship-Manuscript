@@ -1,6 +1,6 @@
 ## HCMI Pipelines Index
 
-This page lists the pipelines, tools, and commands used in the HCMI flagship analysis, organized by data modality.
+This page lists the pipelines, tools, and commands used in the HCMI flagship analysis, organized by data modality. The `pipelines_launchers/` directory provides wrapper scripts for executing the corresponding pipelines, listed below. Each script follows the naming convention `run_pipeline_<pipeline_name>.<extension>`, matching the corresponding pipeline name.
 
 ---
 
