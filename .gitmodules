@@ -29,3 +29,9 @@
 [submodule "HCMI-single-nuclei"]
 	path = HCMI-single-nuclei
 	url = https://github.com/califano-lab/HCMI-single-nuclei.git
+[submodule "analyses/noteboooks/HCMI-single-nuclei"]
+	path = analyses/noteboooks/HCMI-single-nuclei
+	url = https://github.com/califano-lab/HCMI-single-nuclei
+[submodule "analyses/notebooks/HCMI-single-nuclei"]
+	path = analyses/notebooks/HCMI-single-nuclei
+	url = https://github.com/califano-lab/HCMI-single-nuclei
