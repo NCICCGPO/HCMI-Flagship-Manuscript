@@ -1,22 +1,16 @@
-## HCMI Scripts Index
+## HCMI Analyses Index
 
-This page provides an overview of the analysis scripts, notebooks, figure-generation code, and utilities used in the HCMI flagship analysis.
-
----
-
-### analyses 
-
-- **HCMI-single-nuclei**: standalone, conveniently organized, self-contained module that implements the full snRNA-seq analytical workflow, including all notebooks used for data processing, downstream analysis, and figure generation.
-
-- **run_<pipeline>**: script to execute pipelines defined in `HCMI-Flagship-Manuscript/pipelines`
-  *These include celligner, OncoMatch, euc_dist, get_tmp_subtype, latenttf_dist, preprocess_tmp_subtype*
-
-- **plot_fig<_num>**: script to generate the associate figure
+This page provides an overview of the analysis workflows, notebooks, and figure-generation codes used in the HCMI flagship analysis.
 
 ---
 
-### figures
-This directory contains notebooks used for figure visualization and rendering.
+### notebooks 
+This directory contains analytical workflow and notebooks (.ipynb, .html, .qmd file extensions) used for data processing, downstream analysis and figure generation. `HCMI-single-nuclei` provides a standalone, conventiently organized, self-contained submodule that implements the complete snRNA-seq analytical workflow. It includes all notebooks required for preprocessing, downstream analysis, and figure generation of single-nuclei RNA-seq data.
+
+---
+
+### scripts
+This directory contains executable scripts supporting figure generation for Figure 2 and Extended Data Figure 5. 
 
 
 
