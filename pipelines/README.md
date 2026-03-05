@@ -70,6 +70,7 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
 - **Celligner analysis**: Pipeline to align HCMI RNA expression profiles with TCGA/TARGET and CCLE datasets using the Celligner framework as described in Warren et al., *Nature Communications* 2021 (https://doi.org/10.1038/s41467-020-20294-x) and https://github.com/broadinstitute/celligner.
 
 - **MultiClass Pairs Based Distance Analysis**: *Tumor matched model distance calculation based on multiclass pair prediction scores*
+https://github.com/bhrtrcn/MultiClassPairsDistance
 
 - **Latent Transcription Factor Distance Analysis**: *Sample biological distance calculation based on transcription factors.*
     1. [Setup Page](https://github.com/jordan2lee/latent-tf-tumor-growth-distances/blob/main/doc/requirements.md) - *Detailed instructions on required set up.*
