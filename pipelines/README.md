@@ -40,8 +40,7 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
   
   EMBL: https://github.com/hartwigmedical/hmftools
 
-- **ecDNA Detection (AmpliconSuite)**: Inference of extrachromosomal DNA amplifications.  
-  https://github.com/AmpliconSuite/AmpliconSuite-pipeline
+- **ecDNA Detection (AmpliconSuite)**: Please see the ecdna submodule in this github repository.
 
 - **Mutational Signature Analysis**  
   An implementation of the COSMIC signature framework: https://github.com/getzlab/SignatureAnalyzer
