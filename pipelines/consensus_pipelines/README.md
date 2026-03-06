@@ -1,5 +1,9 @@
 - **CN Concordance**: Scripts and workflows for assessing copy number (CN) concordance between models and their paired tumors.  
-  Copy number concordance analysis *(Methods)*
+  Copy number concordance analysis (see methods for detailed description on how ABSOLUTE forcecalling was performed).
+  A basic procedure for ABSOLUTE forcecalling:
+  ```
+  bash ~pipelines/consensus_pipelines/compute_cnv_consensus.bash
+  ```
 
 - **Driver Concordance Analysis**  
     1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
@@ -9,7 +13,7 @@
         ```
 - **Compute purity/ploidy consensus**
   ```bash
-  python scripts/compute_pp_consensus.py --input data/consensus_pp_for_github.txt --output_path '/path/for/output/'
+  python ~pipelines/consensus_pipelines/compute_pp_consensus.py --input data/consensus_pp_for_github.txt --output_path '/path/for/output/'
 
 - **SV consensus**: Computing consensus SV set using SV calls from individual centers. Modofied from PCAWG method. https://github.com/beroukhim-lab/hcmi_sv_consensus_public/tree/main
   ```bash
