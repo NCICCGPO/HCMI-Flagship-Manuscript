@@ -23,7 +23,7 @@ This script visualizes the distribution of OncoMatch NES scores (representing TC
 
 ---
 
--### scripts
+### scripts
 This directory contains executable scripts supporting figure generation for Figure 2 and Extended Data Figure 5. 
 
 **Fig.3e** + **Fig.E4d**: `HCMI-Flagship-Manuscript/analyses/scripts/Fig3e-ExtendedFig4d-blob_generator.R` 
