@@ -8,9 +8,6 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
 
 ### DNA Workflows (WGS/WES)
 
-- **CN Concordance**: Scripts and workflows for assessing copy number (CN) concordance between models and their paired tumors.  
-  Copy number concordance analysis *(Methods)*
-
 - **Allele-Specific CNV + SV Inference (ReMixT)**: Inference of allele-specific CNVs and structural variants.
   https://github.com/amcpherson/remixt
 
@@ -60,6 +57,7 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
   #from linked repo, run on hcmi samples with
   bash scripts/run_sv_consensus_hcmi.bash
   ```
+- **snv/indel consensus**: Submodule for computing snv/indel concordance: https://github.com/NCICCGPO/HCMI-Flagship-Manuscript/tree/main/pipelines/snv-indel-concordance
 ---
 
 ### RNA / Transcriptome Workflows
