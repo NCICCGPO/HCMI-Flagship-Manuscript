@@ -20,7 +20,7 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
 - **Structural Variant Calls**  
   NYGC: https://github.com/nygenome/kancero
   
-  Broad:
+  Broad: https://github.com/getzlab/ABSOLUTE
   
   WashU: https://github.com/ding-lab/SomaticSV
   
