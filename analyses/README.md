@@ -12,9 +12,17 @@ This directory contains analytical workflow and notebooks (.ipynb, .html, .qmd f
 
 This script calculates the Pearson correlation between models and parent tumors based on their cancer-associated CpG hypermethylation profiles; these results are used to generate Figure 3a.
 
+**Fig4ab**: `Fig4ab.ipynb`
+
+This notebook generates Figure 4a–b by summarizing the distribution of disease types across HCMI models and CCLE cell lines. It aggregates RNA-seq metadata by disease and model type, calculates relative representation, and produces the comparison plots shown in Fig. 4a and the summary of unique HCMI-only disease subtypes shown in Fig. 4b.
+
 **Fig.4c**: `Fig.4c_NMF.html` + `Fig.4c_UMAP.html`
 
 These scripts perform dimension reduction via non-negative matrix factorization (NMF) on combined HCMI, TCGA, and TARGET cohorts using CpG sites with cancer-associated DNA hypermethylation. A UMAP is then generated based on the NMF factors for tumor types represented across both HCMI and the TCGA/TARGET projects
+
+**Fig4d**: `Fig4d.ipynb`
+
+This notebook generates Figure 4d using UMAP coordinates from Celligner outputs generated with the Celligner pipeline. It visualizes TCGA/TARGET tumors, HCMI tumors, and HCMI models in a shared transcriptomic embedding space, with colors denoting cancer type and symbols distinguishing sample types.
 
 **Fig.4e**: `Fig.4e.html`
 
@@ -35,6 +43,10 @@ This script generates a UMAP using the same NMF factors as Figure 4c, covering a
 **Fig. 5** + **Figs. E6, E7, E8**: `HCMI-single-nuclei` submodule
 
 `HCMI-single-nuclei` provides a standalone, conventiently organized, self-contained submodule that implements the complete snRNA-seq analytical workflow. It includes all notebooks required for preprocessing, downstream analysis, and figure generation of single-nuclei RNA-seq data and a dedicated README.
+
+**Extended_data_5d**: `Extended_data_5d.ipynb`
+
+This notebook generates Extended Data Figure 5d using  UMAP coordinates from the Celligner pipeline to further assess transcriptomic relationships between tumors and models. This visualization includes the CCLE Cell Lines in addition to the TCGA/TARGET tumors, HCMI tumors, and HCMI models shown in Figure 4d.
 
 
 
