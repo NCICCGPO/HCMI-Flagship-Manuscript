@@ -44,9 +44,9 @@ This script generates a UMAP using the same NMF factors as Figure 4c, covering a
 
 `HCMI-single-nuclei` provides a standalone, conventiently organized, self-contained submodule that implements the complete snRNA-seq analytical workflow. It includes all notebooks required for preprocessing, downstream analysis, and figure generation of single-nuclei RNA-seq data and a dedicated README.
 
-**Extended_data_5d**: `Extended_data_5d.ipynb`
+**Extended data 5d**: `Extended_data_5d.ipynb`
 
-This notebook generates Extended Data Figure 5d using  UMAP coordinates from the Celligner pipeline to further assess transcriptomic relationships between tumors and models. This visualization includes the CCLE Cell Lines in addition to the TCGA/TARGET tumors, HCMI tumors, and HCMI models shown in Figure 4d.
+This notebook generates Extended Data Figure 5d using  UMAP coordinates from the Celligner pipeline to further visualize the transcriptomic relationships between tumors and models. It includes the CCLE Cell Lines in addition to the TCGA/TARGET tumors, HCMI tumors, and HCMI models shown in Figure 4d.
 
 
 
