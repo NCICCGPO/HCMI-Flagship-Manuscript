@@ -38,7 +38,7 @@ The HCMI ecosystem includes multiple platforms for exploring, accessing, and req
 
 - **HCMI Explorer Suite** — interactive viewer for clinical timelines, and genomic annotations. Platform repository submoduled under: `platforms/`
 
-- **[cBioPortal (HCMI Collection)](https://www.cbioportal.org/)** — integrated genomic visualization for HCMI models  
+- **[cBioPortal (HCMI Collection)](https://www.cbioportal.org/](https://www.cbioportal.org/study/summary?id=pancan_hcmi_2025)** — integrated genomic visualization for HCMI models  
 
 - **[HCMI page @ ATCC](https://www.atcc.org/hcmi)** — models, culturing protocols, and ordering information available through ATCC  
 
