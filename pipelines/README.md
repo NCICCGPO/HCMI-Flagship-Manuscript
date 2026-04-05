@@ -8,39 +8,37 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
 
 ### DNA Workflows (WGS/WES)
 
-- **Allele-Specific CNV + SV Inference (ReMixT)**: Inference of allele-specific CNVs and structural variants.
-  https://github.com/amcpherson/remixt
+- **Allele-Specific CNV + SV Inference (ReMixT)**: Inference of allele-specific CNVs and structural variants: [ReMixT](https://github.com/amcpherson/remixt)
 
 - **ASCAT Segmentation**: Tumor–model CNV segmentation  
-  The GDC pipeline for running ASCAT is described here: https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/DNA_Seq_WGS/
+  The GDC pipeline for running ASCAT is described here: [ASCAT pipeline](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/DNA_Seq_WGS/)
 
-- **PURPLE Purity/Ploidy Calling**: Hartwig PURPLE pipeline  
-  https://github.com/hartwigmedical/hmftools
+- **PURPLE Purity/Ploidy Calling**: [Hartwig PURPLE pipeline](https://github.com/hartwigmedical/hmftools)
 
 - **Structural Variant Calls**  
-  NYGC: https://github.com/nygenome/kancero
+  [NYGC](https://github.com/nygenome/kancero)
   
-  Broad: https://github.com/getzlab/ABSOLUTE
+  [Broad](https://github.com/getzlab/ABSOLUTE)
   
-  WashU: https://github.com/ding-lab/SomaticSV
+  [WashU](https://github.com/ding-lab/SomaticSV)
   
-  MSKCC: https://github.com/amcpherson/remixt
+  [MSKCC](https://github.com/amcpherson/remixt)
   
-  EMBL: https://github.com/hartwigmedical/hmftools
+  [EMBL](https://github.com/hartwigmedical/hmftools)
 
 - **Copy Number Calls**  
-  Broad: https://github.com/getzlab/ABSOLUTE
+  [Broad](https://github.com/getzlab/ABSOLUTE)
   
-  WashU: https://github.com/mwyczalkowski/BICSEQ2.CWL
+  [WashU](https://github.com/mwyczalkowski/BICSEQ2.CWL)
   
-  MSKCC: https://github.com/amcpherson/remixt
+  [MSKCC](https://github.com/amcpherson/remixt)
   
-  EMBL: https://github.com/hartwigmedical/hmftools
+  [EMBL](https://github.com/hartwigmedical/hmftools)
 
-- **ecDNA Detection (AmpliconSuite)**: Please see the ecdna submodule in this github repository.
+- **ecDNA Detection (AmpliconSuite)**: Please see the [ecdna submodule](https://github.com/NCICCGPO/HCMI-Flagship-Manuscript/tree/main/pipelines/ecdna) in this github repository.
 
 - **Mutational Signature Analysis**  
-  An implementation of the COSMIC signature framework: https://github.com/getzlab/SignatureAnalyzer
+  An implementation of the COSMIC signature framework: [SignatureAnalyzer](https://github.com/getzlab/SignatureAnalyzer)
 
 - **Driver Concordance Analysis**  
     1. [Setup Page](https://github.com/shahcompbio/driver-concordance/blob/main/README.md) - *Detailed instructions on required setup and running the pipeline.*
@@ -52,22 +50,21 @@ The `pipelines_launchers/` directory provides wrapper scripts for executing the 
   ```bash
   python scripts/compute_pp_consensus.py --input data/consensus_pp_for_github.txt --output_path '/path/for/output/'
 
-- **SV consensus**: Computing consensus SV set using SV calls from individual centers. Modofied from PCAWG method. https://github.com/beroukhim-lab/hcmi_sv_consensus_public/tree/main
+- **SV consensus**: Computing consensus SV set using SV calls from individual centers. Modified from PCAWG method: [SV consensus pipeline](https://github.com/beroukhim-lab/hcmi_sv_consensus_public/tree/main)
   ```bash
   #from linked repo, run on hcmi samples with
   bash scripts/run_sv_consensus_hcmi.bash
   ```
-- **snv/indel consensus**: Submodule for computing snv/indel concordance: https://github.com/NCICCGPO/HCMI-Flagship-Manuscript/tree/main/pipelines/snv-indel-concordance
+- **snv/indel consensus**: Please see the [snv-indel-concordance submodule](https://github.com/NCICCGPO/HCMI-Flagship-Manuscript/tree/main/pipelines/snv-indel-concordance) for computing snv/indel concordance. 
 ---
 
 ### RNA / Transcriptome Workflows
 
 - **OncoMatch analysis**: Scripts to perform protein activity-based OncoMatch analysis on the HCMI collection.
 
-- **Celligner analysis**: Pipeline to align HCMI RNA expression profiles with TCGA/TARGET and CCLE datasets using the Celligner framework as described in Warren et al., *Nature Communications* 2021 (https://doi.org/10.1038/s41467-020-20294-x) and https://github.com/broadinstitute/celligner.
+- **Celligner analysis**: Pipeline to align HCMI RNA expression profiles with TCGA/TARGET and CCLE datasets using the Celligner framework as described in [Warren et al., *Nature Communications* 2021](https://doi.org/10.1038/s41467-020-20294-x) and [Celligner](https://github.com/broadinstitute/celligner).
 
-- **MultiClass Pairs Based Distance Analysis**: *Tumor matched model distance calculation based on multiclass pair prediction scores*
-https://github.com/bhrtrcn/MultiClassPairsDistance
+- **MultiClass Pairs Based Distance Analysis**: *Tumor matched model distance calculation based on multiclass pair prediction scores*: [here](https://github.com/bhrtrcn/MultiClassPairsDistance)
 
 - **Latent Transcription Factor Distance Analysis**: *Sample biological distance calculation based on transcription factors.*
     1. [Setup Page](https://github.com/jordan2lee/latent-tf-tumor-growth-distances/blob/main/doc/requirements.md) - *Detailed instructions on required set up.*
