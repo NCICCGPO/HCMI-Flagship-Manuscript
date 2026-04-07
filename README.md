@@ -13,7 +13,7 @@ More [about HCMI](https://www.cancer.gov/ccg/research/functional-genomics/hcmi)
 
 ### HCMI Data Access
 
-Public and controlled-access data, including WGS/WES, RNA-seq, DNA methylation, WSIs, and clinical metadata, are available from the [NCI Genomic Data Commons (GDC)](https://portal.gdc.cancer.gov/projects/HCMI-CMDC)
+Public and controlled-access data, including WGS/WES, RNA-seq, DNA methylation, WSIs, and clinical metadata, are available from the [NCI Genomic Data Commons (GDC)](https://portal.gdc.cancer.gov/projects/HCMI-CMDC). The [HCMI GDC publication page](https://gdc.cancer.gov/about-data/publications/HCMI-CMDC-2026) serves as a central reference linking to pre-processed data generated in this study. 
 
 ---
 
